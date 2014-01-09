@@ -18,3 +18,5 @@ and builds an AST as follows:
 
 
 It uses Scala Parser Combinators to parse the URI string and builds an AST for that for further processing.
+
+For more example, see unit tests included in the project (e.g., see `OdataUriParseTests.scala`).
