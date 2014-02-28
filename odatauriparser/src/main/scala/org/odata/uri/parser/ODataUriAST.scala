@@ -4,7 +4,7 @@ import scala.util.parsing.input.Positional
 
   abstract class SourceNode extends Positional
 
-  case class ODataQuery(serviceUrl: Expression, resourcePath: Expression, queryOperatorDef:QueryOperations) extends SourceNode
+  case class ODataQuery(val serviceUrl: Expression, val resourcePath: Expression, val queryOperatorDef:QueryOperations) extends SourceNode
 
   abstract class Expression extends SourceNode
 
@@ -12,15 +12,15 @@ import scala.util.parsing.input.Positional
 
   case class QueryOperations(queryOperatorDef: Seq[Expression]) extends Expression
 
-  case class Filter(p: Expression) extends QueryOperation("filter")
+  case class Filter(val p: Expression) extends QueryOperation("filter")
 
-  case class Top(p: Expression) extends QueryOperation("top")
+  case class Top(val p: Expression) extends QueryOperation("top")
 
-  case class Skip(p: Expression) extends QueryOperation("skip")
+  case class Skip(val p: Expression) extends QueryOperation("skip")
 
-  case class OrderByAsc(properties: Seq[Property]) extends QueryOperation("orderBy")
+  case class OrderByAsc(val properties: Seq[Property]) extends QueryOperation("orderBy")
 
-  case class OrderByDesc(properties: Seq[Property]) extends QueryOperation("orderBy")
+  case class OrderByDesc(val properties: Seq[Property]) extends QueryOperation("orderBy")
 
   case class Select(properties: Seq[Property]) extends QueryOperation("select")
 

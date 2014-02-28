@@ -2,13 +2,19 @@ package org.odata.uri.parser.tests
 
 import org.scalatest.FunSuite
 import org.odata.uri.parser._
-import org.odata.jpa.EntityManagerService
+import org.odata.jpa.{JPAQueryExecutor, EntityManagerService}
 import org.odata.jpa.model.{Capability, CapabilityKind}
 import org.slf4j.{Logger, LoggerFactory}
+import javax.persistence.criteria.CriteriaBuilder
+import org.hibernate.Query
+import javax.persistence.EntityManager
 
 class CapabilityServiceTests extends FunSuite{
 
   def LOG:Logger = LoggerFactory.getLogger(classOf[CapabilityServiceTests])
+  val p = new ODataUriParser
+  val mainParser = p.oDataQuery
+
 
   test("Basic capability tests") {
     val em = EntityManagerService.getEntityManager
@@ -38,4 +44,49 @@ class CapabilityServiceTests extends FunSuite{
     em.close()
 
   }
+
+
+
+  test("Generate JPQL /Capability?$select=value"){
+
+    val uri = "http://services.odata.org/OData.svc/Capability?$select=value"
+    val actual = p.parseThis(mainParser, uri).get
+    /*
+    val expectedAst =
+      ODataQuery(
+        URL("http://services.odata.org/OData.svc"),
+        ResourcePath("Capability",EmptyExp(),EmptyExp()),
+        QueryOperations(List(Select(List(Property("value"))))))
+    */
+
+    def result = JPAQueryExecutor(EntityManagerService.getEntityManager, actual.asInstanceOf[ODataQuery]).execute()
+
+    println("Result: " + result)
+
+  }
+
+  test("Generate JPQL /Capability?$select=id"){
+
+    val uri = "http://services.odata.org/OData.svc/Capability?$select=id"
+    val actual = p.parseThis(mainParser, uri).get
+
+    def result = JPAQueryExecutor(EntityManagerService.getEntityManager, actual.asInstanceOf[ODataQuery]).execute()
+
+    println("Result: " + result)
+
+  }
+
+  test("Generate JPQL /Capability?$select=id,value"){
+
+    val uri = "http://services.odata.org/OData.svc/Capability?$select=id,value"
+    val actual = p.parseThis(mainParser, uri).get
+
+    def result = JPAQueryExecutor(EntityManagerService.getEntityManager, actual.asInstanceOf[ODataQuery]).execute()
+
+    println("Result: " + result)
+
+  }
+
+
+
 }
