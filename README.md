@@ -1,5 +1,6 @@
 # A Parser for ODATA URI
 
+
 This project builds a parser for subset of ODATA URI. Main objective is to parse  a URI such as `http://odata.io/odata.svc/Schema(231)/Customer?$top=2&$filter=concat(City, Country) eq 'Berlin, Germany'`
 and builds an AST as follows:
 
@@ -20,3 +21,7 @@ and builds an AST as follows:
 It uses Scala Parser Combinators to parse the URI string and builds an AST for that for further processing.
 
 For more example, see unit tests included in the project (e.g., see `OdataUriParseTests.scala`).
+
+
+
+See [http://www.odata.org/documentation/odata-version-2-0/uri-conventions/](http://www.odata.org/documentation/odata-version-2-0/uri-conventions/) for more details regarding the URI specification.
