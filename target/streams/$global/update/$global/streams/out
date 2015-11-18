@@ -1,0 +1,1171 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/adilakhter/projects/dev/odatauriparser/}odatauriparser...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#odatauriparser_2.10;0.1[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23d7b645[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.hibernate#hibernate-entitymanager;4.2.8.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hibernate#hibernate-entitymanager;4.2.8.Final {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.hibernate#hibernate-entitymanager;4.2.8.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.hibernate#hibernate-entitymanager;4.2.8.Final {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.hibernate/hibernate-entitymanager/4.2.8.Final/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.hibernate#hibernate-entitymanager;4.2.8.Final[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.8.Final/hibernate-entitymanager-4.2.8.Final.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.hibernate#hibernate-entitymanager;4.2.8.Final[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.8.Final/hibernate-entitymanager-4.2.8.Final.pom (4.2.8.Final)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.8.Final/hibernate-entitymanager-4.2.8.Final.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.8.Final/hibernate-entitymanager-4.2.8.Final.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.8.Final/hibernate-entitymanager-4.2.8.Final.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.8.Final/hibernate-entitymanager-4.2.8.Final.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.hibernate#hibernate-entitymanager;4.2.8.Final!hibernate-entitymanager.pom(pom.original) (176ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.hibernate/hibernate-entitymanager/4.2.8.Final/jars/hibernate-entitymanager.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.8.Final/hibernate-entitymanager-4.2.8.Final.jar[0m
+[0m[[0mdebug[0m] [0m	found org.hibernate#hibernate-entitymanager;4.2.8.Final in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.jboss.logging#jboss-logging;3.1.0.GA ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jboss.logging#jboss-logging;3.1.0.GA {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.jboss.logging#jboss-logging;3.1.0.GA ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.jboss.logging#jboss-logging;3.1.0.GA {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.jboss.logging/jboss-logging/3.1.0.GA/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.jboss.logging#jboss-logging;3.1.0.GA[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.jboss.logging#jboss-logging;3.1.0.GA[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.pom (3.1.0.GA)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.jboss.logging#jboss-logging;3.1.0.GA!jboss-logging.pom(pom.original) (582ms)[0m
+[0m[[0minfo[0m] [0mResolving org.jboss#jboss-parent;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jboss#jboss-parent;7 {}[0m
+[0m[[0minfo[0m] [0mResolving org.jboss#jboss-parent;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.jboss#jboss-parent;7 {}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.jboss/jboss-parent/7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.jboss#jboss-parent;7[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jboss/jboss-parent/7/jboss-parent-7.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.jboss#jboss-parent;7[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/jboss/jboss-parent/7/jboss-parent-7.pom (7)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/jboss/jboss-parent/7/jboss-parent-7.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/jboss-parent/7/jboss-parent-7.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/jboss-parent/7/jboss-parent-7.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jboss/jboss-parent/7/jboss-parent-7.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.jboss#jboss-parent;7!jboss-parent.pom(pom.original) (163ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.jboss/jboss-parent/7/jars/jboss-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jboss/jboss-parent/7/jboss-parent-7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/jboss/jboss-parent/7/jboss-parent-7.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/jboss/jboss-parent/7/jboss-parent-7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/jboss/jboss-parent/7/jboss-parent-7.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repository.jboss.org/nexus/content/groups/public/org/jboss/jboss-parent/7/jboss-parent-7.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repository.jboss.org/nexus/content/groups/public/org/jboss/jboss-parent/7/jboss-parent-7.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.jboss.logging/jboss-logging/3.1.0.GA/jars/jboss-logging.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar[0m
+[0m[[0mdebug[0m] [0m	found org.jboss.logging#jboss-logging;3.1.0.GA in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.hibernate#hibernate-core;4.2.8.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hibernate#hibernate-core;4.2.8.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.hibernate#hibernate-core;4.2.8.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.hibernate#hibernate-core;4.2.8.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.hibernate/hibernate-core/4.2.8.Final/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.hibernate#hibernate-core;4.2.8.Final[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.8.Final/hibernate-core-4.2.8.Final.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.hibernate#hibernate-core;4.2.8.Final[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.8.Final/hibernate-core-4.2.8.Final.pom (4.2.8.Final)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.8.Final/hibernate-core-4.2.8.Final.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.8.Final/hibernate-core-4.2.8.Final.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.8.Final/hibernate-core-4.2.8.Final.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.8.Final/hibernate-core-4.2.8.Final.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.hibernate#hibernate-core;4.2.8.Final!hibernate-core.pom(pom.original) (197ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.hibernate/hibernate-core/4.2.8.Final/jars/hibernate-core.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.8.Final/hibernate-core-4.2.8.Final.jar[0m
+[0m[[0mdebug[0m] [0m	found org.hibernate#hibernate-core;4.2.8.Final in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving antlr#antlr;2.7.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: antlr#antlr;2.7.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: antlr#antlr;2.7.7[0m
+[0m[[0mdebug[0m] [0m	found antlr#antlr;2.7.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving dom4j#dom4j;1.6.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: dom4j#dom4j;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving dom4j#dom4j;1.6.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: dom4j#dom4j;1.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/dom4j/dom4j/1.6.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for dom4j#dom4j;1.6.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for dom4j#dom4j;1.6.1[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom (1.6.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] dom4j#dom4j;1.6.1!dom4j.pom(pom.original) (140ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/dom4j/dom4j/1.6.1/jars/dom4j.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar[0m
+[0m[[0mdebug[0m] [0m	found dom4j#dom4j;1.6.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xml-apis#xml-apis;1.0.b2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xml-apis#xml-apis;1.0.b2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.18.1-GA ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.javassist#javassist;3.18.1-GA {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.javassist#javassist;3.18.1-GA[0m
+[0m[[0mdebug[0m] [0m	found org.javassist#javassist;3.18.1-GA in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.jboss.spec.javax.transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.pom (1.0.1.Final)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final!jboss-transaction-api_1.1_spec.pom(pom.original) (201ms)[0m
+[0m[[0minfo[0m] [0mResolving org.jboss#jboss-parent;9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jboss#jboss-parent;9 {}[0m
+[0m[[0minfo[0m] [0mResolving org.jboss#jboss-parent;9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.jboss#jboss-parent;9 {}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.jboss/jboss-parent/9/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.jboss#jboss-parent;9[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jboss/jboss-parent/9/jboss-parent-9.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.jboss#jboss-parent;9[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/jboss/jboss-parent/9/jboss-parent-9.pom (9)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/jboss/jboss-parent/9/jboss-parent-9.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/jboss-parent/9/jboss-parent-9.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/jboss-parent/9/jboss-parent-9.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jboss/jboss-parent/9/jboss-parent-9.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.jboss#jboss-parent;9!jboss-parent.pom(pom.original) (202ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.jboss/jboss-parent/9/jars/jboss-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jboss/jboss-parent/9/jboss-parent-9.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/jboss/jboss-parent/9/jboss-parent-9.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/jboss/jboss-parent/9/jboss-parent-9.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/jboss/jboss-parent/9/jboss-parent-9.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repository.jboss.org/nexus/content/groups/public/org/jboss/jboss-parent/9/jboss-parent-9.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repository.jboss.org/nexus/content/groups/public/org/jboss/jboss-parent/9/jboss-parent-9.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.jboss.spec.javax.transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jars/jboss-transaction-api_1.1_spec.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar[0m
+[0m[[0mdebug[0m] [0m	found org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/1.0.1.Final/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.pom (1.0.1.Final)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final!hibernate-jpa-2.0-api.pom(pom.original) (156ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/1.0.1.Final/jars/hibernate-jpa-2.0-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar[0m
+[0m[[0mdebug[0m] [0m	found org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.hibernate.common#hibernate-commons-annotations;4.0.2.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hibernate.common#hibernate-commons-annotations;4.0.2.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.hibernate.common#hibernate-commons-annotations;4.0.2.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.hibernate.common#hibernate-commons-annotations;4.0.2.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.hibernate.common/hibernate-commons-annotations/4.0.2.Final/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.hibernate.common#hibernate-commons-annotations;4.0.2.Final[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.hibernate.common#hibernate-commons-annotations;4.0.2.Final[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.pom (4.0.2.Final)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.hibernate.common#hibernate-commons-annotations;4.0.2.Final!hibernate-commons-annotations.pom(pom.original) (201ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.hibernate.common/hibernate-commons-annotations/4.0.2.Final/jars/hibernate-commons-annotations.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar[0m
+[0m[[0mdebug[0m] [0m	found org.hibernate.common#hibernate-commons-annotations;4.0.2.Final in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.hsqldb#hsqldb;2.3.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hsqldb#hsqldb;2.3.2 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.hsqldb#hsqldb;2.3.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.hsqldb#hsqldb;2.3.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.hsqldb/hsqldb/2.3.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.hsqldb#hsqldb;2.3.2[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.hsqldb#hsqldb;2.3.2[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.pom (2.3.2)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.hsqldb#hsqldb;2.3.2!hsqldb.pom(pom.original) (113ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.hsqldb/hsqldb/2.3.2/jars/hsqldb.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.hsqldb#hsqldb;2.3.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.5 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#jcl-over-slf4j;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#jcl-over-slf4j;1.7.5 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#jcl-over-slf4j;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.slf4j#jcl-over-slf4j;1.7.5 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.slf4j/jcl-over-slf4j/1.7.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#jcl-over-slf4j;1.7.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.slf4j#jcl-over-slf4j;1.7.5[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom (1.7.5)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#jcl-over-slf4j;1.7.5!jcl-over-slf4j.pom(pom.original) (107ms)[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.5 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-parent;1.7.5[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.slf4j/jcl-over-slf4j/1.7.5/jars/jcl-over-slf4j.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#jcl-over-slf4j;1.7.5 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#log4j-over-slf4j;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#log4j-over-slf4j;1.7.5 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#log4j-over-slf4j;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.slf4j#log4j-over-slf4j;1.7.5 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.slf4j/log4j-over-slf4j/1.7.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#log4j-over-slf4j;1.7.5[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.slf4j#log4j-over-slf4j;1.7.5[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.pom (1.7.5)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#log4j-over-slf4j;1.7.5!log4j-over-slf4j.pom(pom.original) (182ms)[0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.5 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-parent;1.7.5[0m
+[0m[[0mdebug[0m] [0m		tried /Users/adilakhter/.ivy2/local/org.slf4j/log4j-over-slf4j/1.7.5/jars/log4j-over-slf4j.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.jar[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#log4j-over-slf4j;1.7.5 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.google.guava#guava;16.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava;16.0.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.guava#guava;16.0.1[0m
+[0m[[0mdebug[0m] [0m	found com.google.guava#guava;16.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xml-apis#xml-apis;1.0.b2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xml-apis#xml-apis;1.0.b2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.0.13 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.0.13 {runtime=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.0.13[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-classic;1.0.13 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.0.13 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-core;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.0.13[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.0.13 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xml-apis#xml-apis;1.0.b2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xml-apis#xml-apis;1.0.b2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scalatest#scalatest_2.10;2.0 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;2.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;2.0 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;2.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;2.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scalatest#scalatest_2.10;2.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scalatest#scalatest_2.10;2.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-reflect;2.10.0 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scalatest#scalatest_2.10;2.0 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [provided->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xml-apis#xml-apis;1.0.b2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xml-apis#xml-apis;1.0.b2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [provided->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xml-apis#xml-apis;1.0.b2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xml-apis#xml-apis;1.0.b2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xml-apis#xml-apis;1.0.b2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate#hibernate-core;4.2.8.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->antlr#antlr;2.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: xml-apis#xml-apis;1.0.b2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-core;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.CR2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate.common#hibernate-commons-annotations;4.0.2.Final->org.jboss.logging#jboss-logging;3.1.0.GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->dom4j#dom4j;1.6.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.javassist#javassist;3.18.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.hibernate#hibernate-entitymanager;4.2.8.Final->org.hibernate.common#hibernate-commons-annotations;4.0.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate#hibernate-entitymanager;4.2.8.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hsqldb#hsqldb;2.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#jcl-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#jcl-over-slf4j;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#log4j-over-slf4j;1.7.5->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.slf4j#log4j-over-slf4j;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->com.google.guava#guava;16.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->ch.qos.logback#logback-classic;1.0.13 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scalatest#scalatest_2.10;2.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scalatest#scalatest_2.10;2.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scalatest#scalatest_2.10;2.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scalatest#scalatest_2.10;2.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [provided->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#odatauriparser_2.10;0.1 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#odatauriparser_2.10;0.1->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.8.Final/hibernate-entitymanager-4.2.8.Final.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.8.Final/hibernate-entitymanager-4.2.8.Final.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.8.Final/hibernate-entitymanager-4.2.8.Final.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.8.Final/hibernate-entitymanager-4.2.8.Final.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hibernate/hibernate-entitymanager/4.2.8.Final/hibernate-entitymanager-4.2.8.Final.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.hibernate#hibernate-entitymanager;4.2.8.Final!hibernate-entitymanager.jar (1426ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hsqldb/hsqldb/2.3.2/hsqldb-2.3.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.hsqldb#hsqldb;2.3.2!hsqldb.jar (2224ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#jcl-over-slf4j;1.7.5!jcl-over-slf4j.jar (102ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.5/log4j-over-slf4j-1.7.5.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#log4j-over-slf4j;1.7.5!log4j-over-slf4j.jar (182ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;16.0.1!guava.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.jboss.logging#jboss-logging;3.1.0.GA!jboss-logging.jar (148ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.8.Final/hibernate-core-4.2.8.Final.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.8.Final/hibernate-core-4.2.8.Final.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.8.Final/hibernate-core-4.2.8.Final.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.8.Final/hibernate-core-4.2.8.Final.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hibernate/hibernate-core/4.2.8.Final/hibernate-core-4.2.8.Final.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.hibernate#hibernate-core;4.2.8.Final!hibernate-core.jar (4666ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] dom4j#dom4j;1.6.1!dom4j.jar (244ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.javassist#javassist;3.18.1-GA!javassist.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.jboss.spec.javax.transaction#jboss-transaction-api_1.1_spec;1.0.1.Final!jboss-transaction-api_1.1_spec.jar (201ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final!hibernate-jpa-2.0-api.jar (154ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.hibernate.common#hibernate-commons-annotations;4.0.2.Final!hibernate-commons-annotations.jar (179ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] antlr#antlr;2.7.7!antlr.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.13!logback-classic.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.0.13!logback-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.0!scalatest_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6190ms :: artifacts dl 9539ms[0m
+[0m[[0mdebug[0m] [0m	report for default#odatauriparser_2.10;0.1 compile produced in /Users/adilakhter/projects/dev/odatauriparser/target/resolution-cache/reports/default-odatauriparser_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#odatauriparser_2.10;0.1 runtime produced in /Users/adilakhter/projects/dev/odatauriparser/target/resolution-cache/reports/default-odatauriparser_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#odatauriparser_2.10;0.1 test produced in /Users/adilakhter/projects/dev/odatauriparser/target/resolution-cache/reports/default-odatauriparser_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#odatauriparser_2.10;0.1 provided produced in /Users/adilakhter/projects/dev/odatauriparser/target/resolution-cache/reports/default-odatauriparser_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#odatauriparser_2.10;0.1 optional produced in /Users/adilakhter/projects/dev/odatauriparser/target/resolution-cache/reports/default-odatauriparser_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#odatauriparser_2.10;0.1 compile-internal produced in /Users/adilakhter/projects/dev/odatauriparser/target/resolution-cache/reports/default-odatauriparser_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#odatauriparser_2.10;0.1 runtime-internal produced in /Users/adilakhter/projects/dev/odatauriparser/target/resolution-cache/reports/default-odatauriparser_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#odatauriparser_2.10;0.1 test-internal produced in /Users/adilakhter/projects/dev/odatauriparser/target/resolution-cache/reports/default-odatauriparser_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#odatauriparser_2.10;0.1 plugin produced in /Users/adilakhter/projects/dev/odatauriparser/target/resolution-cache/reports/default-odatauriparser_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#odatauriparser_2.10;0.1 sources produced in /Users/adilakhter/projects/dev/odatauriparser/target/resolution-cache/reports/default-odatauriparser_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#odatauriparser_2.10;0.1 docs produced in /Users/adilakhter/projects/dev/odatauriparser/target/resolution-cache/reports/default-odatauriparser_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#odatauriparser_2.10;0.1 pom produced in /Users/adilakhter/projects/dev/odatauriparser/target/resolution-cache/reports/default-odatauriparser_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#odatauriparser_2.10;0.1 scala-tool produced in /Users/adilakhter/projects/dev/odatauriparser/target/resolution-cache/reports/default-odatauriparser_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (6190ms resolve - 9539ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
