@@ -1,0 +1,29 @@
+.class
+*.log
+.history
+
+# sbt specific
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/activator-sbt*
+
+# Sublime specific
+sublime.sbt
+*.sublime
+*.sublime-project
+*.sublime-workspace
+
+# Data
+data/*
+
+# IDEA InteliJ
+.idea/*
+.idea_modules/*
+projectFilesBackup/
+
+revision.txt
+
+.DS_Store
