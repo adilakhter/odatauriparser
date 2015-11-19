@@ -3,12 +3,24 @@
 .history
 
 # sbt specific
-target/
+dist/*
+target/*
 lib_managed/
 src_managed/
 project/boot/
 project/plugins/project/
+.history
+
 project/activator-sbt*
+
+# Scala-IDE specific
+.scala_dependencies
+
+# Eclipse specific
+.project
+.classpath
+.cache
+.settings
 
 # Sublime specific
 sublime.sbt
@@ -20,10 +32,11 @@ sublime.sbt
 data/*
 
 # IDEA InteliJ
-.idea/*
-.idea_modules/*
-projectFilesBackup/
+.idea
+.idea_modules
 
 revision.txt
 
 .DS_Store
+
+*.pyc
