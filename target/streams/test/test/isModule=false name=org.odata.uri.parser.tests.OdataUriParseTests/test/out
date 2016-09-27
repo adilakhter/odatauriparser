@@ -1,7 +1,0 @@
-[0m[[0minfo[0m] [0m[32mOdataUriParseTests:[0m[0m
-[0m[[0minfo[0m] [0m[32m- Parse /Customers?$filter=indexof(CompanyName, ‘lfreds’) eq 1[0m[0m
-[0m[[0minfo[0m] [0m[32m- Parse /Customers?$filter=concat(City, Country) eq 'Berlin, Germany'[0m[0m
-[0m[[0minfo[0m] [0m[32m- Parse /Products?$filter=not isSoldAt(ams)[0m[0m
-[0m[[0minfo[0m] [0m[32m- Parse /Products?$skip=2&$top=2[0m[0m
-[0m[[0minfo[0m] [0m[32m- Parse /Customers?$top=2&$filter=concat(City, Country) eq 'Berlin, Germany'[0m[0m
-[0m[[0minfo[0m] [0m[32m- Parse /Products?$select=Name[0m[0m

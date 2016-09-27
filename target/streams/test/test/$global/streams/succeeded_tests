@@ -1,6 +1,0 @@
-#Successful Tests
-#Wed Nov 18 20:16:57 CET 2015
-org.odata.uri.parser.tests.FilterTests=1447874216404
-org.odata.uri.parser.tests.SimpleParsingTests=1447874216354
-org.odata.uri.parser.tests.CapabilityServiceTests=1447874217862
-org.odata.uri.parser.tests.OdataUriParseTests=1447874216429

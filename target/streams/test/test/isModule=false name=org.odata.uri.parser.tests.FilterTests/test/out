@@ -1,5 +1,0 @@
-[0m[[0minfo[0m] [0m[32mFilterTests:[0m[0m
-[0m[[0minfo[0m] [0m[32m- Simple $filter operation[0m[0m
-[0m[[0minfo[0m] [0m[32m- Parse $filter=Price le 200 and Price gt 3.5[0m[0m
-[0m[[0minfo[0m] [0m[32m- Parse $filter= moreThan(Price, 10)[0m[0m
-[0m[[0minfo[0m] [0m[32m- Parse $filter=toupper(CompanyName) eq ‘ALFREDS FUTTERKISTE’[0m[0m

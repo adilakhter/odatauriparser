@@ -1,5 +1,0 @@
-[0m[[0minfo[0m] [0m[32mCapabilityServiceTests:[0m[0m
-[0m[[0minfo[0m] [0m[32m- Basic capability tests[0m[0m
-[0m[[0minfo[0m] [0m[32m- Generate JPQL /Capability?$select=value[0m[0m
-[0m[[0minfo[0m] [0m[32m- Generate JPQL /Capability?$select=id[0m[0m
-[0m[[0minfo[0m] [0m[32m- Generate JPQL /Capability?$select=id,value[0m[0m
