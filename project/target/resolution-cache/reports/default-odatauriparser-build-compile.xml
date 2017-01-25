@@ -9,96 +9,207 @@
 		extra-sbtVersion="0.13"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20151118201520"/>
+		date="20170125175835"/>
 	<dependencies>
 		<module organisation="name.heikoseeberger" name="sbt-groll">
-			<revision name="1.6.0" status="release" pubdate="20130704171751" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="7">
-				<metadata-artifact status="successful" details="" size="1419" time="1690" location="/Users/adilakhter/.ivy2/cache/scala_2.10/sbt_0.13/name.heikoseeberger/sbt-groll/ivy-1.6.0.xml" searched="true" original-local-location="/Users/adilakhter/.ivy2/cache/scala_2.10/sbt_0.13/name.heikoseeberger/sbt-groll/ivy-1.6.0.xml.original" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/name.heikoseeberger/sbt-groll/scala_2.10/sbt_0.13/1.6.0/ivys/ivy.xml"/>
+			<revision name="1.6.0" status="release" pubdate="20130704171751" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="15">
+				<metadata-artifact status="successful" details="" size="1419" time="2151" location="/Users/adil/.ivy2/cache/scala_2.10/sbt_0.13/name.heikoseeberger/sbt-groll/ivy-1.6.0.xml" searched="true" original-local-location="/Users/adil/.ivy2/cache/scala_2.10/sbt_0.13/name.heikoseeberger/sbt-groll/ivy-1.6.0.xml.original" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/name.heikoseeberger/sbt-groll/scala_2.10/sbt_0.13/1.6.0/ivys/ivy.xml"/>
 				<caller organisation="default" name="odatauriparser-build" conf="compile" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
-					<artifact name="sbt-groll" type="jar" ext="jar" status="successful" details="" size="48259" time="2125" location="/Users/adilakhter/.ivy2/cache/scala_2.10/sbt_0.13/name.heikoseeberger/sbt-groll/jars/sbt-groll-1.6.0.jar">
+					<artifact name="sbt-groll" type="jar" ext="jar" status="successful" details="" size="48259" time="2151" location="/Users/adil/.ivy2/cache/scala_2.10/sbt_0.13/name.heikoseeberger/sbt-groll/jars/sbt-groll-1.6.0.jar">
 						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/name.heikoseeberger/sbt-groll/scala_2.10/sbt_0.13/1.6.0/jars/sbt-groll.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.scala-lang" name="scala-reflect">
-			<revision name="2.10.4" status="release" pubdate="20140318224707" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
-				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
-				<metadata-artifact status="no" details="" size="2647" time="0" location="/Users/adilakhter/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom"/>
-				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.0" callerrev="2.0"/>
-				<artifacts>
-					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3203471" time="0" location="/Users/adilakhter/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.4.jar">
-						<origin-location is-local="false" location="UNKNOWN"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.scala-sbt" name="global-plugins">
-			<revision name="0.0" status="integration" pubdate="20151118201518" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="0.0" status="integration" pubdate="20170125175524" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="default" name="odatauriparser-build" conf="compile" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.kalmanb.sbt" name="sbt-ctags">
-			<revision name="0.3.0" status="release" pubdate="20140126124457" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="4">
-				<metadata-artifact status="no" details="" size="1974" time="0" location="/Users/adilakhter/.ivy2/cache/scala_2.10/sbt_0.13/com.kalmanb.sbt/sbt-ctags/ivy-0.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.kalmanb.sbt/sbt-ctags/scala_2.10/sbt_0.13/0.3.0/ivys/ivy.xml"/>
-				<caller organisation="org.scala-sbt" name="global-plugins" conf="compile" rev="0.3.0" rev-constraint-default="0.3.0" rev-constraint-dynamic="0.3.0" callerrev="0.0" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+		<module organisation="org.ensime" name="sbt-ensime">
+			<revision name="1.12.4" status="release" pubdate="20161207210434" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/ensime/ensime-sbt" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4139" time="0" location="/Users/adil/.ivy2/cache/scala_2.10/sbt_0.13/org.ensime/sbt-ensime/ivy-1.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ensime/sbt-ensime_2.10_0.13/1.12.4/sbt-ensime-1.12.4.pom"/>
+				<caller organisation="org.scala-sbt" name="global-plugins" conf="compile" rev="1.12.4" rev-constraint-default="1.12.4" rev-constraint-dynamic="1.12.4" callerrev="0.0" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
-					<artifact name="sbt-ctags" type="jar" ext="jar" status="no" details="" size="41701" time="0" location="/Users/adilakhter/.ivy2/cache/scala_2.10/sbt_0.13/com.kalmanb.sbt/sbt-ctags/jars/sbt-ctags-0.3.0.jar">
-						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.kalmanb.sbt/sbt-ctags/scala_2.10/sbt_0.13/0.3.0/jars/sbt-ctags.jar"/>
+					<artifact name="sbt-ensime" type="jar" ext="jar" status="no" details="" size="303356" time="0" location="/Users/adil/.ivy2/cache/scala_2.10/sbt_0.13/org.ensime/sbt-ensime/jars/sbt-ensime-1.12.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ensime/sbt-ensime_2.10_0.13/1.12.4/sbt-ensime-1.12.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.scalatest" name="scalatest_2.10">
-			<revision name="2.0" status="release" pubdate="20131031171328" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
-				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="6736" time="0" location="/Users/adilakhter/.ivy2/cache/org.scalatest/scalatest_2.10/ivy-2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.pom"/>
-				<caller organisation="com.kalmanb.sbt" name="sbt-ctags" conf="compile" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="0.3.0"/>
+		<module organisation="io.get-coursier" name="coursier-cache_2.10">
+			<revision name="1.0.0-M15-1" status="release" pubdate="20161203130959" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/alexarchambault/coursier" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache 2.0" url="http://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="2985" time="0" location="/Users/adil/.ivy2/cache/io.get-coursier/coursier-cache_2.10/ivy-1.0.0-M15-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15-1/coursier-cache_2.10-1.0.0-M15-1.pom"/>
+				<caller organisation="org.ensime" name="sbt-ensime" conf="default, compile, runtime, master" rev="1.0.0-M15-1" rev-constraint-default="1.0.0-M15-1" rev-constraint-dynamic="1.0.0-M15-1" callerrev="1.12.4"/>
 				<artifacts>
-					<artifact name="scalatest_2.10" type="jar" ext="jar" status="no" details="" size="7158439" time="0" location="/Users/adilakhter/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-2.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.jar"/>
+					<artifact name="coursier-cache_2.10" type="jar" ext="jar" status="no" details="" size="324032" time="0" location="/Users/adil/.ivy2/cache/io.get-coursier/coursier-cache_2.10/jars/coursier-cache_2.10-1.0.0-M15-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15-1/coursier-cache_2.10-1.0.0-M15-1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.orrsella" name="sbt-sublime">
-			<revision name="1.1.0" status="release" pubdate="20150415170504" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/orrsella/sbt-sublime" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
-				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3106" time="0" location="/Users/adilakhter/.ivy2/cache/scala_2.10/sbt_0.13/com.orrsella/sbt-sublime/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/orrsella/sbt-sublime_2.10_0.13/1.1.0/sbt-sublime-1.1.0.pom"/>
-				<caller organisation="org.scala-sbt" name="global-plugins" conf="compile" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.0" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+		<module organisation="org.scalaz" name="scalaz-concurrent_2.10">
+			<revision name="7.2.7" status="release" pubdate="20161027011139" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2949" time="0" location="/Users/adil/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/ivy-7.2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.pom"/>
+				<caller organisation="io.get-coursier" name="coursier-cache_2.10" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="1.0.0-M15-1"/>
 				<artifacts>
-					<artifact name="sbt-sublime" type="jar" ext="jar" status="no" details="" size="54879" time="0" location="/Users/adilakhter/.ivy2/cache/scala_2.10/sbt_0.13/com.orrsella/sbt-sublime/jars/sbt-sublime-1.1.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/orrsella/sbt-sublime_2.10_0.13/1.1.0/sbt-sublime-1.1.0.jar"/>
+					<artifact name="scalaz-concurrent_2.10" type="bundle" ext="jar" status="no" details="" size="320599" time="0" location="/Users/adil/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/bundles/scalaz-concurrent_2.10-7.2.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="io.spray" name="spray-json_2.10">
-			<revision name="1.3.1" status="release" pubdate="20141028134324" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
-				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="2955" time="0" location="/Users/adilakhter/.ivy2/cache/io.spray/spray-json_2.10/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.3.1/spray-json_2.10-1.3.1.pom"/>
-				<caller organisation="com.orrsella" name="sbt-sublime" conf="default, compile, runtime, master" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="1.1.0"/>
+		<module organisation="org.scalaz" name="scalaz-effect_2.10">
+			<revision name="7.2.7" status="release" pubdate="20161027011156" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2790" time="0" location="/Users/adil/.ivy2/cache/org.scalaz/scalaz-effect_2.10/ivy-7.2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.10" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="7.2.7"/>
 				<artifacts>
-					<artifact name="spray-json_2.10" type="bundle" ext="jar" status="no" details="" size="285112" time="0" location="/Users/adilakhter/.ivy2/cache/io.spray/spray-json_2.10/bundles/spray-json_2.10-1.3.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.3.1/spray-json_2.10-1.3.1.jar"/>
+					<artifact name="scalaz-effect_2.10" type="bundle" ext="jar" status="no" details="" size="398656" time="0" location="/Users/adil/.ivy2/cache/org.scalaz/scalaz-effect_2.10/bundles/scalaz-effect_2.10-7.2.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.get-coursier" name="coursier_2.10">
+			<revision name="1.0.0-M15-1" status="release" pubdate="20161203130938" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/alexarchambault/coursier" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache 2.0" url="http://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3085" time="0" location="/Users/adil/.ivy2/cache/io.get-coursier/coursier_2.10/ivy-1.0.0-M15-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15-1/coursier_2.10-1.0.0-M15-1.pom"/>
+				<caller organisation="io.get-coursier" name="coursier-cache_2.10" conf="compile, runtime" rev="1.0.0-M15-1" rev-constraint-default="1.0.0-M15-1" rev-constraint-dynamic="1.0.0-M15-1" callerrev="1.0.0-M15-1"/>
+				<caller organisation="org.ensime" name="sbt-ensime" conf="default, compile, runtime, master" rev="1.0.0-M15-1" rev-constraint-default="1.0.0-M15-1" rev-constraint-dynamic="1.0.0-M15-1" callerrev="1.12.4"/>
+				<artifacts>
+					<artifact name="coursier_2.10" type="jar" ext="jar" status="no" details="" size="1193440" time="0" location="/Users/adil/.ivy2/cache/io.get-coursier/coursier_2.10/jars/coursier_2.10-1.0.0-M15-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15-1/coursier_2.10-1.0.0-M15-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jsoup" name="jsoup">
+			<revision name="1.9.2" status="release" pubdate="20160518024447" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://jsoup.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="The MIT License" url="https://jsoup.org/license"/>
+				<metadata-artifact status="no" details="" size="3094" time="0" location="/Users/adil/.ivy2/cache/org.jsoup/jsoup/ivy-1.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom"/>
+				<caller organisation="io.get-coursier" name="coursier_2.10" conf="compile, runtime" rev="1.9.2" rev-constraint-default="1.9.2" rev-constraint-dynamic="1.9.2" callerrev="1.0.0-M15-1"/>
+				<artifacts>
+					<artifact name="jsoup" type="jar" ext="jar" status="no" details="" size="319052" time="0" location="/Users/adil/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.9.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="fastparse_2.10">
+			<revision name="0.4.2" status="release" pubdate="20161022093100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/scala-parser" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3673" time="0" location="/Users/adil/.ivy2/cache/com.lihaoyi/fastparse_2.10/ivy-0.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.pom"/>
+				<caller organisation="io.get-coursier" name="coursier_2.10" conf="compile, runtime" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="1.0.0-M15-1"/>
+				<artifacts>
+					<artifact name="fastparse_2.10" type="jar" ext="jar" status="no" details="" size="332922" time="0" location="/Users/adil/.ivy2/cache/com.lihaoyi/fastparse_2.10/jars/fastparse_2.10-0.4.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="fastparse-utils_2.10">
+			<revision name="0.4.2" status="release" pubdate="20161022093021" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/scala-parser" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3541" time="0" location="/Users/adil/.ivy2/cache/com.lihaoyi/fastparse-utils_2.10/ivy-0.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.pom"/>
+				<caller organisation="com.lihaoyi" name="fastparse_2.10" conf="compile, runtime" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="0.4.2"/>
+				<artifacts>
+					<artifact name="fastparse-utils_2.10" type="jar" ext="jar" status="no" details="" size="77511" time="0" location="/Users/adil/.ivy2/cache/com.lihaoyi/fastparse-utils_2.10/jars/fastparse-utils_2.10-0.4.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="sourcecode_2.10">
+			<revision name="0.1.3" status="release" pubdate="20161021173013" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/sourcecode" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3116" time="0" location="/Users/adil/.ivy2/cache/com.lihaoyi/sourcecode_2.10/ivy-0.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.pom"/>
+				<caller organisation="com.lihaoyi" name="fastparse-utils_2.10" conf="compile, runtime" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.4.2"/>
+				<caller organisation="com.lihaoyi" name="fastparse_2.10" conf="compile, runtime" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.4.2"/>
+				<artifacts>
+					<artifact name="sourcecode_2.10" type="jar" ext="jar" status="no" details="" size="113996" time="0" location="/Users/adil/.ivy2/cache/com.lihaoyi/sourcecode_2.10/jars/sourcecode_2.10-0.1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalamacros" name="quasiquotes_2.10">
+			<revision name="2.1.0" status="release" pubdate="20151119161126" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalamacros/paradise" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html"/>
+				<metadata-artifact status="no" details="" size="2868" time="0" location="/Users/adil/.ivy2/cache/org.scalamacros/quasiquotes_2.10/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.pom"/>
+				<caller organisation="com.lihaoyi" name="fastparse-utils_2.10" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.4.2"/>
+				<caller organisation="com.lihaoyi" name="fastparse_2.10" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.4.2"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_2.10" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1.3"/>
+				<artifacts>
+					<artifact name="quasiquotes_2.10" type="jar" ext="jar" status="no" details="" size="720702" time="0" location="/Users/adil/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.6" status="release" pubdate="20150918093538" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2835" time="0" location="/Users/adil/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6.pom"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.4" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3206180" time="0" location="/Users/adil/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.6/scala-reflect-2.10.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.10">
+			<revision name="7.2.7" status="release" pubdate="20161027011230" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2639" time="0" location="/Users/adil/.ivy2/cache/org.scalaz/scalaz-core_2.10/ivy-7.2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.pom"/>
+				<caller organisation="io.get-coursier" name="coursier_2.10" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="1.0.0-M15-1"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.10" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="7.2.7"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.10" conf="compile, runtime" rev="7.2.7" rev-constraint-default="7.2.7" rev-constraint-dynamic="7.2.7" callerrev="7.2.7"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.10" type="bundle" ext="jar" status="no" details="" size="10730972" time="0" location="/Users/adil/.ivy2/cache/org.scalaz/scalaz-core_2.10/bundles/scalaz-core_2.10-7.2.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalariform" name="scalariform_2.10">
+			<revision name="0.1.4" status="release" pubdate="20130424183552" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mdr/scalariform" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2789" time="0" location="/Users/adil/.ivy2/cache/org.scalariform/scalariform_2.10/ivy-0.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.4/scalariform_2.10-0.1.4.pom"/>
+				<caller organisation="org.ensime" name="sbt-ensime" conf="default, compile, runtime, master" rev="0.1.4" rev-constraint-default="0.1.4" rev-constraint-dynamic="0.1.4" callerrev="1.12.4"/>
+				<artifacts>
+					<artifact name="scalariform_2.10" type="jar" ext="jar" status="no" details="" size="1857142" time="0" location="/Users/adil/.ivy2/cache/org.scalariform/scalariform_2.10/jars/scalariform_2.10-0.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalariform/scalariform_2.10/0.1.4/scalariform_2.10-0.1.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.10.4" status="release" pubdate="20140318224629" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+			<revision name="2.10.6" status="release" pubdate="20150918093528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
-				<metadata-artifact status="no" details="" size="2487" time="0" location="/Users/adilakhter/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
-				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.0" callerrev="2.0"/>
-				<caller organisation="io.spray" name="spray-json_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.3.1"/>
-				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.10.4"/>
+				<metadata-artifact status="no" details="" size="2669" time="0" location="/Users/adil/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.pom"/>
+				<caller organisation="org.scalariform" name="scalariform_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.0" callerrev="0.1.4"/>
+				<caller organisation="io.get-coursier" name="coursier-cache_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="1.0.0-M15-1"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.4" callerrev="2.1.0"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="7.2.7"/>
+				<caller organisation="com.lihaoyi" name="fastparse-utils_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.4.2"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="2.10.6"/>
+				<caller organisation="io.get-coursier" name="coursier_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="1.0.0-M15-1"/>
+				<caller organisation="com.lihaoyi" name="fastparse_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.4.2"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.1.3"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="7.2.7"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="7.2.7"/>
 				<artifacts>
-					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126372" time="0" location="/Users/adilakhter/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar">
-						<origin-location is-local="false" location="UNKNOWN"/>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7132001" time="0" location="/Users/adil/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
